@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point
- * Return: Always 1 (Success)
+ * main - Entry 101-quote.c
+ * Return:1 
  */
 int main(void)
 {
