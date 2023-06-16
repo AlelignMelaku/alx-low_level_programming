@@ -3,9 +3,10 @@
 #include <stdio.h>
 /**
  * main - check whether the number is positve, negative or zero.
- *
+ * descriptins - here i have done C code for if else.
  * return : 0
  */
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
