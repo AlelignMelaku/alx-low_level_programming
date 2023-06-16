@@ -5,7 +5,7 @@
  * main - hPrints the last digit of a randomly generated number
  * Descripions - find solutions for The last digit.
  *
- * Return : Always (0) success.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
