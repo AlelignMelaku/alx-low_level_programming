@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	unsigned long int num = 612852475143;
-	unsigned long int prim;
+	long int num = 612852475143;
+	long int prim;
 
 	prim = 3;
 
