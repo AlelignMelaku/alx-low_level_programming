@@ -8,20 +8,17 @@
  */
 int main(void)
 {
-	long int num = 612852475143;
-	long int prim;
+	long x, y;
 
-	prim = 3;
-
-	while (prim < num / 2)
+	x = 612852475143;
+	for (y = 2; x > y; y++)
 	{
-		if ((num % prim) == 0)
+		while (x % y == 0)
 		{
-			if ((prim % 3) == 2)
-				printf(",%lu ", prim);
+			x = x / y;
 		}
-		prim = prim + 2;
 	}
+	printf("%lu", y);
 	putchar('\n');
 	return (0);
 }
