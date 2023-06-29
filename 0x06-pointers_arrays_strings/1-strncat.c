@@ -1,4 +1,4 @@
-#include <stdlib.>
+#include <stdlib.h>
 #include "main.h"
 /**
  * _strncat - concatenate strings, defining the size of second string.
