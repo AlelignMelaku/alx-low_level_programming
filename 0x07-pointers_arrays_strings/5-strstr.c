@@ -1,41 +1,42 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 /**
  * _strstr - function that locates a substring.
  * @haystack: first value -char
  * @needle: second value - char
+ *
  * Return: char with result
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int m = 0, a = 0, k, j = 0, l, i = 0;
+	int count = 0, a = 0, k, j = 0, l, i = 0;
 	char *p;
 
-	while (needle[m] != '\0')
+	while (needle[count] != '\0')
 	{
-		m++;
+		count++;
 	}
 	while (haystack[i] != '\0')
 	{
 		i++;
 	}
-	if (m == 0)
+	if (count == 0)
 		return (haystack);
 	while (haystack[j] != '\0')
 	{
 		if (haystack[j] == needle[0])
 		{
 			p = &haystack[j];
-			i = j;
+			l = j;
 			a = 0;
-			for (k = 0; k < m; k++)
+			for (k = 0; k < count; k++)
 			{
 				if (haystack[l] == needle[k])
 					a++;
 				l++;
 			}
 		}
-		if (a == m)
+		if (a == count)
 			return (p);
 		j++;
 	}
