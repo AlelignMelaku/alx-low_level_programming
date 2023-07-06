@@ -9,10 +9,10 @@
  */
 int prime1(int a, int b)
 {
-	if (a % b == 0)
-		return (0);
-	else if (a == b)
+	if (a == b)
 		return (1);
+	else if (a % b == 0)
+		return (0);
 	return (prime1(a, b + 1));
 }
 /**
