@@ -4,15 +4,12 @@
 /**
  * _puts - a function that prints a string
  * @str: string input
+ * _putchar prints a new line
  * Return: string
  */
 void _puts(char *str)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
+	while (*str)
+		_putchar(*str++);
 	_putchar('\n');
 }
