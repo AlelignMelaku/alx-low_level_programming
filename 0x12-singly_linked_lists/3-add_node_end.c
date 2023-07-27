@@ -1,6 +1,6 @@
 /*
  * File: 3-add_node_end.c
- * Auth: Brennan D Baraban
+ * Auth: Melaku Alelign
  */
 #include "lists.h"
 #include <string.h>
