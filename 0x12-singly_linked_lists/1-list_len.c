@@ -1,6 +1,6 @@
 /*
  * File: 1-list_len.c
- * Auth: Brennan D Baraban
+ * Auth: Melaku A
  */
 #include "lists.h"
 /**
