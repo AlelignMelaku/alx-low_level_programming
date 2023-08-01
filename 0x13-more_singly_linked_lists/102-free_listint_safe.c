@@ -25,7 +25,7 @@ size_t looped_listint_count(listint_t *head)
 				h = h->next;
 			}
 			m = m->next;
-			while (m != ha)
+			while (m != h)
 			{
 				node1++;
 				m = m->next;
@@ -48,7 +48,7 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *temp;
 	size_t node2, index;
 
-	nodes2 = looped_listint_count(*h);
+	node2 = looped_listint_count(*h);
 	if (node2 == 0)
 	{
 		for (; h != NULL && *h != NULL; node2++)
